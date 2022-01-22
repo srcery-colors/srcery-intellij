@@ -1,6 +1,7 @@
 import org.jetbrains.intellij.tasks.RunPluginVerifierTask
+import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
-fun properties(key: String) = project.findProject(key).toString()
+fun properties(key: String) = project.findProperty(key).toString()
 
 plugins {
     id("java")
@@ -13,21 +14,35 @@ version = properties("pluginVersion")
 
 intellij {
     pluginName.set(properties("pluginName"))
+    version.set(properties("platformVersion"))
+    type.set(properties("platformType"))
 }
 
 repositories {
     mavenCentral()
 }
 
-sourceSets {
-    main {
-        resources {
-            setSrcDirs(listOf("src/main/resources"))
+tasks {
+    properties("javaVersion").let {
+        withType<JavaCompile> {
+            sourceCompatibility = it
+            targetCompatibility = it
+        }
+        withType<KotlinCompile> {
+            kotlinOptions.jvmTarget = it
         }
     }
-}
 
-tasks {
+    wrapper {
+        gradleVersion = properties("gradleVersion")
+    }
+
+    patchPluginXml {
+        version.set(properties("pluginVersion"))
+        sinceBuild.set(properties("pluginSinceBuild"))
+        untilBuild.set(properties("pluginUntilBuild"))
+    }
+
     runPluginVerifier {
         ideVersions.set(
             properties("pluginVerifierIdeVersions")
