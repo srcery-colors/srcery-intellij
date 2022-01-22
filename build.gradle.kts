@@ -1,3 +1,4 @@
+import org.jetbrains.changelog.date
 import org.jetbrains.intellij.tasks.RunPluginVerifierTask
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
@@ -7,6 +8,7 @@ plugins {
     id("java")
     id("org.jetbrains.kotlin.jvm") version "1.4.0"
     id("org.jetbrains.intellij") version "1.0"
+    id("org.jetbrains.changelog") version "1.3.1"
 }
 
 group = properties("pluginGroup")
@@ -20,6 +22,14 @@ intellij {
 
 repositories {
     mavenCentral()
+}
+
+changelog {
+    version.set(properties("pluginVersion"))
+    path.set("${project.projectDir}/CHANGELOG.md")
+    header.set(provider { "[${version.get()}] - ${date()}" })
+    itemPrefix.set("-")
+    groups.set(listOf("Added", "Changed"))
 }
 
 tasks {
@@ -51,6 +61,7 @@ tasks {
             |<h2>Screenshots</h2>
             |<p><img src="https://raw.githubusercontent.com/nils-degroot/srcery-intellij/master/docs/screenshot.png" width="600" /></p>
         """.trimMargin())
+        changeNotes.set(provider { changelog.getLatest().toHTML() })
     }
 
     runPluginVerifier {
