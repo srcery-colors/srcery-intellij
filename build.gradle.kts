@@ -56,4 +56,8 @@ tasks {
             RunPluginVerifierTask.FailureLevel.INVALID_PLUGIN
         ))
     }
+
+    publishPlugin {
+        token.set(System.getenv("SRCERY_INTELLIJ_TOKEN"))
+    }
 }
