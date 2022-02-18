@@ -9,6 +9,8 @@
 ### Changed
 
 - Updated the page readme to match the GitHub readme
+- Updated `Duplicate from server` to be more readable
+- Updated `Inject line fragment` to be more readable
 
 ## [0.1.1]
 
