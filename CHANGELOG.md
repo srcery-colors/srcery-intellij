@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.3]
+
+### Changed
+
+- Updated platform version to 2022.1
+- Updated plugin verifier to usable versions
+
 ## [0.1.2]
 
 ### Added
