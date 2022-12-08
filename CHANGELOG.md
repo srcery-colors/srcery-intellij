@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.1.5]
+
+### Changed
+
+- Updated platform version to 2022.3
+
 ## [0.1.4]
 
 ### Changed
