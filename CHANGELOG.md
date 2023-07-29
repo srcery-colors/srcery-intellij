@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.1.7]
+
+### Changed
+
+- Updated platform version to 2023.2
+
 ## [0.1.6]
 
 ### Changed
