@@ -1,5 +1,15 @@
 # Changelog
 
+## [0.1.8]
+
+### Changed
+
+- Updated to support IntelliJ IDEs up to 2025.*
+- Upgraded Java version to 17
+- Updated Gradle and Kotlin plugin versions
+- Set minimum supported IDE version to 2024.1
+- Removed `untilBuild` cap on version
+
 ## [0.1.7]
 
 ### Changed
