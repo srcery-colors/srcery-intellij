@@ -62,7 +62,7 @@
       "selectionInactiveForeground": "fg0",
       "underlineColor": "magenta",
 
-      "hoverBackground": "xgrax3Opacity",
+      "hoverBackground": "xgray3Opacity",
 
       "borderColor": "bg2",
       "separatorColor": "bg2",
@@ -91,7 +91,7 @@
       "Blue": "blueOpacity",
       "Green": "greenOpacity",
       "Gray": "whiteOpacity",
-      "Orange": "orangeOpacity",
+      "Orange": "orange",
       "Rose": "magentaOpacity",
       "Yellow": "yellowOpacity"
     },

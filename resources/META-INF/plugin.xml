@@ -1,7 +1,7 @@
 <idea-plugin>
   <id>com.nils-degroot.srcery-theme</id>
   <name>Srcery Colorscheme</name>
-  <version>1.0</version>
+  <version>0.1.8</version>
   <vendor email="nils@peeko.nl" url="https://peeko.nl">Nils de Groot</vendor>
   <description><![CDATA[
     Srcery is a color scheme with clearly defined contrasting colors and a slightly earthy tone.
@@ -17,6 +17,6 @@
   <depends>com.intellij.modules.platform</depends>
 
   <extensions defaultExtensionNs="com.intellij">
-    <themeProvider id="ac7d08ee-cadf-4e36-a1ce-4a03d575f489" path="/srcery.theme.json"/>
+    <themeProvider id="ac7d08ee-cadf-4e36-a1ce-4a03d575f489" path="/srcery.theme.json" />
   </extensions>
 </idea-plugin>

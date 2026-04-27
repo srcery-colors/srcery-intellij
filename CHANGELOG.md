@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.1.8]
+
+### Changed
+
+- Updated platform version to 2025.2
+
 ## [0.1.7]
 
 ### Changed
