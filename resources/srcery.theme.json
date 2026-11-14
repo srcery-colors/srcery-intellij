@@ -14,8 +14,8 @@
     "fg2": "#c5b088",
     "fg3": "#968566",
 
-    "black": "#1c1b19",
-    "blackOpacity": "#1c1b1922",
+    "black": "#121110",
+    "blackOpacity": "#12111022",
     "red": "#ef2f27",
     "redOpacity": "#ef2f2722",
     "green": "#519f50",
@@ -42,7 +42,7 @@
 
     "orange": "#ff5f00",
     "brightOrange": "#ff8700",
-    "hardBlack": "#121110",
+    "hardBlack": "#0e0d0c",
 
     "xgray1": "#1c1b19",
     "xgray2": "#262522",
