@@ -11,7 +11,7 @@
 
     "fg0": "#fce8c3",
     "fg1": "#caba9c",
-    "fg2": "#baa67f",
+    "fg2": "#c5b088",
     "fg3": "#968566",
 
     "black": "#1c1b19",
@@ -28,10 +28,10 @@
     "magentaOpacity": "#e02c6d22",
     "cyan": "#0aaeb3",
     "cyanOpacity": "#0aaeb322",
-    "white": "#baa67f",
-    "whiteOpacity": "#baa67f22",
+    "white": "#c5b088",
+    "whiteOpacity": "#c5b08822",
 
-    "brightBlack": "#918175",
+    "brightBlack": "#917e6b",
     "brightRed": "#f75341",
     "brightGreen": "#98bc37",
     "brightYellow": "#fed06e",
@@ -42,15 +42,15 @@
 
     "orange": "#ff5f00",
     "brightOrange": "#ff8700",
-    "hardBlack": "#121212",
+    "hardBlack": "#121110",
 
-    "xgray1": "#262626",
-    "xgray2": "#303030",
-    "xgray3": "#3a3a3a",
-    "xgray3Opacity": "#3a3a3a22",
-    "xgray4": "#444444",
-    "xgray5": "#4e4e4e",
-    "xgray6": "#585858"
+    "xgray1": "#1c1b19",
+    "xgray2": "#262522",
+    "xgray3": "#312f2c",
+    "xgray3Opacity": "#312f2c22",
+    "xgray4": "#3b3935",
+    "xgray5": "#45433e",
+    "xgray6": "#504d47"
   },
   "ui": {
     "*": {
@@ -126,13 +126,13 @@
     "ColorPalette": {
       "Actions.Blue": "#2c78bf",
       "Actions.Green": "#519f50",
-      "Actions.Grey": "#baa67f",
+      "Actions.Grey": "#c5b088",
       "Actions.Red": "#ef2f27",
       "Actions.Yellow": "#fbb829",
 
       "Objects.Blue": "#68a8e4",
       "Objects.Green": "#98bc37",
-      "Objects.Grey": "#baa67f",
+      "Objects.Grey": "#c5b088",
       "Objects.Red": "#f75341",
       "Objects.Yellow": "#fed06e",
       "Objects.Pink": "#ff5c8f",
