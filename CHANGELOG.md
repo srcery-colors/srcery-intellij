@@ -1,5 +1,15 @@
 # Changelog
 
+## [0.1.9]
+
+### Changed
+
+- Synced colors with Srcery palette v2
+
+### Fixed
+
+- Selected items are visible again (selection background no longer matches the panel background)
+
 ## [0.1.8]
 
 ### Changed

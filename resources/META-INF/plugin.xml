@@ -1,7 +1,7 @@
 <idea-plugin>
   <id>com.nils-degroot.srcery-theme</id>
   <name>Srcery Colorscheme</name>
-  <version>0.1.8</version>
+  <version>0.1.9</version>
   <vendor email="nils@peeko.nl" url="https://peeko.nl">Nils de Groot</vendor>
   <description><![CDATA[
     Srcery is a color scheme with clearly defined contrasting colors and a slightly earthy tone.

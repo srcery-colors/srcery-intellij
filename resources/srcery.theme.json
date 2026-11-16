@@ -57,7 +57,7 @@
       "background": "bg1",
       "foreground": "fg0",
 
-      "selectionBackground": "xgray2",
+      "selectionBackground": "xgray3",
       "selectionInactiveBackground": "bg0",
       "selectionInactiveForeground": "fg0",
       "underlineColor": "magenta",
